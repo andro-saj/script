@@ -14,10 +14,10 @@ function b (){
 
 }
 console.log(a());
-console.log(b());
-*/
+console.log(b());*/
 
-/*var sum = 0;
+/*
+var sum = 0;
     for (var i = 0; i < 10; i++){
         console.log(i);
     sum = sum + i;
@@ -125,12 +125,12 @@ function Dog(name) {
     console.log("olá " + names[i]);
 }*/
 
-function makeMutiplaier (multiplier){
+function makeMultiplier (multiplier){
   return(
-    function(x){
+    function (x) {
       return multiplier * x;
     }
   );
 }
-var doubleAll = makeMutiplaier(2);
+var doubleAll = makeMultiplier(2);
 console.log(doubleAll(10));

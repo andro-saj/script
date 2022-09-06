@@ -122,9 +122,9 @@ function Dog(name) {
   }
   names[100] =" is";
   for(var i = 0; i < names.length; i++){
-    console.log("olá " + names[i]);
+    console.log("ol " + names[i]);
 }*/
-
+/*
 function makeMultiplier (multiplier){
   return(
     function (x) {
@@ -134,3 +134,26 @@ function makeMultiplier (multiplier){
 }
 var doubleAll = makeMultiplier(2);
 console.log(doubleAll(10));
+*/ 
+
+/*var string = "leandro";
+string +="souza riveiro";
+ console.log(string + "!");*/
+
+ var a = 4, b = 4;
+ if(a == b){
+  console.log("a=4 e b=4");
+ }
+
+ a = "4";
+ if(a == b){
+  console.log("a='4' e b = 4");
+ }
+
+ if( a === b){
+  console.log("a='4' e b = 4");
+ }
+   
+   else{
+    console.log("a='4' a não é = b");
+   }
